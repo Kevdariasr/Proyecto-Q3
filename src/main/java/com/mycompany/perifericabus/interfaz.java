@@ -82,6 +82,7 @@ public interfaz(){
     
     
 //Controles
+/*
 iniciar.addActionListener(new ActionListener(){
 public void actionPerformed(ActionEvent evt){
 if(hilo1.isAlive() == false) {
@@ -139,7 +140,7 @@ hilo3.activo=false;
 
 
 
-
+*/
 
 
 }

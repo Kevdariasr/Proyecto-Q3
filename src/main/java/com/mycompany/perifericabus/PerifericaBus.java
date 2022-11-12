@@ -15,7 +15,7 @@ public class PerifericaBus {
         System.out.println("Hello World!");
         
         
-        Interfaz ventana = new Interfaz();
+        interfaz ventana = new interfaz();
         ventana.setSize(  700, 800);
         //ventana.setResizable(false);
         ventana.setLocationRelativeTo(null);
