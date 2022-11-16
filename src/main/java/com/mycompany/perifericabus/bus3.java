@@ -65,8 +65,8 @@ public class bus3 extends Thread {
             }            
             
             if (i == 5) {
-                interfaz.dos.setIcon(new ImageIcon(interfaz.bus2));
-                interfaz.dos.setLocation(550,500 );
+                interfaz.tres.setIcon(new ImageIcon(interfaz.bus3));
+                interfaz.tres.setLocation(550,500 );
                 try {
                 sleep(tiempo);
                 } catch (InterruptedException e) {        }                
@@ -75,8 +75,8 @@ public class bus3 extends Thread {
             }
             
             if (i == 6) {
-                interfaz.dos.setIcon(new ImageIcon(interfaz.bus2));
-                interfaz.dos.setLocation(550,575 );
+                interfaz.tres.setIcon(new ImageIcon(interfaz.bus3));
+                interfaz.tres.setLocation(550,575 );
                 try {
                 sleep(tiempo);
                 } catch (InterruptedException e) {        }                
@@ -85,8 +85,8 @@ public class bus3 extends Thread {
             }
 
             if (i == 7) {
-                interfaz.dos.setIcon(new ImageIcon(interfaz.bus3));
-                interfaz.dos.setLocation(450,575 );
+                interfaz.tres.setIcon(new ImageIcon(interfaz.bus3));
+                interfaz.tres.setLocation(450,575 );
                 try {
                 sleep(tiempo);
                 } catch (InterruptedException e) {        }                
