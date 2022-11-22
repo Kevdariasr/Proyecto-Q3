@@ -16,6 +16,9 @@ public class PerifericaBus {
         ventana.setLocationRelativeTo(null);
         ventana.setTitle("Pista Carros");
         ventana.setVisible(true);
-                
+        
+
+
+        
     }
 }

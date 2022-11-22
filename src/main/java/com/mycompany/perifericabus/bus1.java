@@ -25,18 +25,18 @@ public class bus1 extends Thread{
             if (i == 1) {
                 interfaz.uno.setIcon(new ImageIcon(interfaz.bus1));
                 
-                interfaz.uno.setLocation(550, 100);
+                interfaz.uno.setLocation(154, 338);
                 i++;
                 try {
-                sleep(tiempo);
+                Thread.sleep(tiempo);
                 } catch (InterruptedException e) { }
                 c ++;
             }
             if (i == 2) {
                 interfaz.uno.setIcon(new ImageIcon(interfaz.bus1));
-                interfaz.uno.setLocation(550, 200);
+                interfaz.uno.setLocation(196, 400);
                 try {
-                sleep(tiempo);
+                Thread.sleep(tiempo);
                 } catch (InterruptedException e) {            }
                 i++;
                 c ++;
@@ -45,7 +45,7 @@ public class bus1 extends Thread{
                 interfaz.uno.setIcon(new ImageIcon(interfaz.bus1));
                 interfaz.uno.setLocation(550,300 );
                 try {
-                sleep(tiempo);
+                Thread.sleep(tiempo);
                 } catch (InterruptedException e) { }
                 i++;
                c ++;
@@ -55,7 +55,7 @@ public class bus1 extends Thread{
                 interfaz.uno.setIcon(new ImageIcon(interfaz.bus1));
                 interfaz.uno.setLocation(550,400 );
                 try {
-                sleep(tiempo);
+                Thread.sleep(tiempo);
                 } catch (InterruptedException e) {             }
                 i++;
                 c ++;
@@ -65,7 +65,7 @@ public class bus1 extends Thread{
                 interfaz.uno.setIcon(new ImageIcon(interfaz.bus1));
                 interfaz.uno.setLocation(550,500 );
                 try {
-                sleep(tiempo);
+                Thread.sleep(tiempo);
                 } catch (InterruptedException e) {        }                
                 i++;
                 c ++;
@@ -75,7 +75,7 @@ public class bus1 extends Thread{
                 interfaz.uno.setIcon(new ImageIcon(interfaz.bus1));
                 interfaz.uno.setLocation(550,575 );
                 try {
-                sleep(tiempo);
+                Thread.sleep(tiempo);
                 } catch (InterruptedException e) {        }                
                 i++;
                 c ++;
@@ -85,7 +85,7 @@ public class bus1 extends Thread{
                 interfaz.uno.setIcon(new ImageIcon(interfaz.bus1));
                 interfaz.uno.setLocation(450,575 );
                 try {
-                sleep(tiempo);
+                Thread.sleep(tiempo);
                 } catch (InterruptedException e) {        }                
                 i++;
                 c ++;
@@ -95,7 +95,7 @@ public class bus1 extends Thread{
                 interfaz.uno.setIcon(new ImageIcon(interfaz.bus1));
                 interfaz.uno.setLocation(350,575 );
                 try {
-                sleep(tiempo);
+                Thread.sleep(tiempo);
                 } catch (InterruptedException e) {        }                
                 i++;
                 c ++;
@@ -105,7 +105,7 @@ public class bus1 extends Thread{
                 interfaz.uno.setIcon(new ImageIcon(interfaz.bus1));
                 interfaz.uno.setLocation(250,575 );
                 try {
-                sleep(tiempo);
+                Thread.sleep(tiempo);
                 } catch (InterruptedException e) {        }                
                 i++;
                c ++;
@@ -115,7 +115,7 @@ public class bus1 extends Thread{
                 interfaz.uno.setIcon(new ImageIcon(interfaz.bus1));
                 interfaz.uno.setLocation(150,575 );
                 try {
-                sleep(tiempo);
+                Thread.sleep(tiempo);
                 } catch (InterruptedException e) {        }                
                 i++;
                 c ++;
@@ -126,7 +126,7 @@ public class bus1 extends Thread{
                 interfaz.uno.setIcon(new ImageIcon(interfaz.bus1));
                 interfaz.uno.setLocation(15,575 );
                 try {
-                sleep(tiempo);
+                Thread.sleep(tiempo);
                 } catch (InterruptedException e) {        }                
                 i++;
                 c ++;
@@ -136,7 +136,7 @@ public class bus1 extends Thread{
                 interfaz.uno.setIcon(new ImageIcon(interfaz.bus1));
                 interfaz.uno.setLocation(15,500 );
                 try {
-                sleep(tiempo);
+                Thread.sleep(tiempo);
                 } catch (InterruptedException e) {        }                
                 i++;
                 c ++;
@@ -146,7 +146,7 @@ public class bus1 extends Thread{
                 interfaz.uno.setIcon(new ImageIcon(interfaz.bus1));
                 interfaz.uno.setLocation(15,400 );
                 try {
-                sleep(tiempo);
+                Thread.sleep(tiempo);
                 } catch (InterruptedException e) {        }                
                 i++;
                 c ++;
@@ -156,7 +156,7 @@ public class bus1 extends Thread{
                 interfaz.uno.setIcon(new ImageIcon(interfaz.bus1));
                 interfaz.uno.setLocation(15,300 );
                 try {
-                sleep(tiempo);
+                Thread.sleep(tiempo);
                 } catch (InterruptedException e) {        }                
                 i++;
                 c ++;
@@ -166,7 +166,7 @@ public class bus1 extends Thread{
                 interfaz.uno.setIcon(new ImageIcon(interfaz.bus1));
                 interfaz.uno.setLocation(15,200 );
                 try {
-                sleep(tiempo);
+                Thread.sleep(tiempo);
                 } catch (InterruptedException e) {        }                
                 i++;
                 c ++;
@@ -176,7 +176,7 @@ public class bus1 extends Thread{
                 interfaz.uno.setIcon(new ImageIcon(interfaz.bus1));
                 interfaz.uno.setLocation(115,200 );
                 try {
-                sleep(tiempo);
+                Thread.sleep(tiempo);
                 } catch (InterruptedException e) {        }                
                 i++;
                 c ++;
@@ -187,7 +187,7 @@ public class bus1 extends Thread{
                 interfaz.uno.setIcon(new ImageIcon(interfaz.bus1));
                 interfaz.uno.setLocation(215,200 );
                 try {
-                sleep(tiempo);
+                Thread.sleep(tiempo);
                 } catch (InterruptedException e) {        }                
                 i++;
                 c ++;
@@ -197,7 +197,7 @@ public class bus1 extends Thread{
                 interfaz.uno.setIcon(new ImageIcon(interfaz.bus1));
                 interfaz.uno.setLocation(315,200 );
                 try {
-                sleep(tiempo);
+                Thread.sleep(tiempo);
                 } catch (InterruptedException e) {        }                
                 i++;
                 c ++;
@@ -207,7 +207,7 @@ public class bus1 extends Thread{
                 interfaz.uno.setIcon(new ImageIcon(interfaz.bus1));
                 interfaz.uno.setLocation(450,200 );
                 try {
-                sleep(tiempo);
+                Thread.sleep(tiempo);
                 } catch (InterruptedException e) {        }                
                 i=2;
                 c ++;
@@ -220,8 +220,9 @@ public class bus1 extends Thread{
              
              
             try {
-                sleep(tiempo);
+                Thread.sleep(tiempo);
             } catch (InterruptedException e) {
+                System.out.println("El bus no salio a la hora estimada!");
             }
         }
 }

@@ -44,7 +44,7 @@ public class interfaz extends JFrame {
     bus3 hilo3 = new bus3();
     int z = 0;
 
-
+        
     
 public interfaz(){
    
@@ -114,6 +114,8 @@ if(z== 1) {
         }
     }
 });
+    
+
 /*
 detener1.addActionListener(new ActionListener(){
 public void actionPerformed(ActionEvent evt){
