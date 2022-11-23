@@ -27,27 +27,27 @@ public class bus2 extends Thread {
             if (i == 1) {
                 interfaz.dos.setIcon(new ImageIcon(interfaz.bus2));
                 
-                interfaz.uno.setLocation(550, 100);
+                interfaz.uno.setLocation(320, 583);
                 i++;
                 try {
-                sleep(tiempo);
+                Thread.sleep(tiempo);
                 } catch (InterruptedException e) { }
                 c ++;
             }
             if (i == 2) {
                 interfaz.dos.setIcon(new ImageIcon(interfaz.bus2));
-                interfaz.dos.setLocation(550, 200);
+                interfaz.dos.setLocation(370, 600);
                 try {
-                sleep(tiempo);
+                Thread.sleep(tiempo);
                 } catch (InterruptedException e) {            }
                 i++;
                 c ++;
             }
             if (i == 3) {
                 interfaz.dos.setIcon(new ImageIcon(interfaz.bus2));
-                interfaz.dos.setLocation(550,300 );
+                interfaz.dos.setLocation(404, 600);
                 try {
-                sleep(tiempo);
+                Thread.sleep(tiempo);
                 } catch (InterruptedException e) { }
                 i++;
                 c ++;
@@ -55,9 +55,9 @@ public class bus2 extends Thread {
             
             if (i == 4) {
                 interfaz.dos.setIcon(new ImageIcon(interfaz.bus2));
-                interfaz.dos.setLocation(550,400 );
+                interfaz.dos.setLocation(400, 628);
                 try {
-                sleep(tiempo);
+                Thread.sleep(tiempo);
                 } catch (InterruptedException e) {             }
                 i++;
                 c ++;
@@ -65,9 +65,9 @@ public class bus2 extends Thread {
             
             if (i == 5) {
                 interfaz.dos.setIcon(new ImageIcon(interfaz.bus2));
-                interfaz.dos.setLocation(550,500 );
+                interfaz.dos.setLocation(436, 645);
                 try {
-                sleep(tiempo);
+                Thread.sleep(tiempo);
                 } catch (InterruptedException e) {        }                
                 i++;
                 c ++;
@@ -75,9 +75,9 @@ public class bus2 extends Thread {
             
             if (i == 6) {
                 interfaz.dos.setIcon(new ImageIcon(interfaz.bus2));
-                interfaz.dos.setLocation(550,575 );
+                interfaz.dos.setLocation(470, 621);
                 try {
-                sleep(tiempo);
+                Thread.sleep(tiempo);
                 } catch (InterruptedException e) {        }                
                 i++;
                 c ++;
@@ -85,9 +85,9 @@ public class bus2 extends Thread {
 
             if (i == 7) {
                 interfaz.dos.setIcon(new ImageIcon(interfaz.bus2));
-                interfaz.dos.setLocation(450,575 );
+                interfaz.dos.setLocation(512, 586);
                 try {
-                sleep(tiempo);
+                Thread.sleep(tiempo);
                 } catch (InterruptedException e) {        }                
                 i++;
                 c ++;
@@ -95,9 +95,9 @@ public class bus2 extends Thread {
 
             if (i == 8) {
                 interfaz.dos.setIcon(new ImageIcon(interfaz.bus2));
-                interfaz.dos.setLocation(350,575 );
+                interfaz.dos.setLocation(484, 464);
                 try {
-                sleep(tiempo);
+                Thread.sleep(tiempo);
                 } catch (InterruptedException e) {        }                
                 i++;
                 c ++;
@@ -105,9 +105,9 @@ public class bus2 extends Thread {
 
             if (i == 9) {
                 interfaz.dos.setIcon(new ImageIcon(interfaz.bus2));
-                interfaz.dos.setLocation(250,575 );
+                interfaz.dos.setLocation(428, 450);
                 try {
-                sleep(tiempo);
+                Thread.sleep(tiempo);
                 } catch (InterruptedException e) {        }                
                 i++;
                 c ++;
@@ -115,9 +115,9 @@ public class bus2 extends Thread {
 
             if (i == 10) {
                 interfaz.dos.setIcon(new ImageIcon(interfaz.bus2));
-                interfaz.dos.setLocation(150,575 );
+                interfaz.dos.setLocation(396, 428);
                 try {
-                sleep(tiempo);
+                Thread.sleep(tiempo);
                 } catch (InterruptedException e) {        }                
                 i++;
                 c ++;
@@ -126,9 +126,9 @@ public class bus2 extends Thread {
 
             if (i == 11) {
                 interfaz.dos.setIcon(new ImageIcon(interfaz.bus2));
-                interfaz.dos.setLocation(15,575 );
+                interfaz.dos.setLocation(397, 408);
                 try {
-                sleep(tiempo);
+                Thread.sleep(tiempo);
                 } catch (InterruptedException e) {        }                
                 i++;
                 c ++;
@@ -136,9 +136,9 @@ public class bus2 extends Thread {
 
             if (i == 12) {
                 interfaz.dos.setIcon(new ImageIcon(interfaz.bus2));
-                interfaz.dos.setLocation(15,500 );
+                interfaz.dos.setLocation(421, 416);
                 try {
-                sleep(tiempo);
+                Thread.sleep(tiempo);
                 } catch (InterruptedException e) {        }                
                 i++;
                 c ++;
@@ -146,9 +146,9 @@ public class bus2 extends Thread {
 
              if (i == 13) {
                 interfaz.dos.setIcon(new ImageIcon(interfaz.bus2));
-                interfaz.dos.setLocation(15,400 );
+                interfaz.dos.setLocation(445, 430);
                 try {
-                sleep(tiempo);
+                Thread.sleep(tiempo);
                 } catch (InterruptedException e) {        }                
                 i++;
                 c ++;
@@ -156,9 +156,9 @@ public class bus2 extends Thread {
             
              if (i == 14) {
                 interfaz.dos.setIcon(new ImageIcon(interfaz.bus2));
-                interfaz.dos.setLocation(15,300 );
+                interfaz.dos.setLocation(300, 620);
                 try {
-                sleep(tiempo);
+                Thread.sleep(tiempo);
                 } catch (InterruptedException e) {        }                
                 i++;
                 c ++;
@@ -168,7 +168,7 @@ public class bus2 extends Thread {
                 interfaz.dos.setIcon(new ImageIcon(interfaz.bus2));
                 interfaz.dos.setLocation(15,200 );
                 try {
-                sleep(tiempo);
+                Thread.sleep(tiempo);
                 } catch (InterruptedException e) {        }                
                 i++;
                 c ++;
@@ -176,9 +176,9 @@ public class bus2 extends Thread {
              
              if (i == 16) {
                 interfaz.dos.setIcon(new ImageIcon(interfaz.bus2));
-                interfaz.dos.setLocation(115,200 );
+                interfaz.dos.setLocation(300, 620);
                 try {
-                sleep(tiempo);
+                Thread.sleep(tiempo);
                 } catch (InterruptedException e) {        }                
                 i++;
                 c ++;
@@ -187,9 +187,9 @@ public class bus2 extends Thread {
              
              if (i == 17) {
                 interfaz.dos.setIcon(new ImageIcon(interfaz.bus2));
-                interfaz.dos.setLocation(215,200 );
+                interfaz.dos.setLocation(300, 620);
                 try {
-                sleep(tiempo);
+                Thread.sleep(tiempo);
                 } catch (InterruptedException e) {        }                
                 i++;
                 c ++;
@@ -197,9 +197,9 @@ public class bus2 extends Thread {
              
              if (i == 18) {
                 interfaz.dos.setIcon(new ImageIcon(interfaz.bus2));
-                interfaz.dos.setLocation(315,200 );
+                interfaz.dos.setLocation(300, 620);
                 try {
-                sleep(tiempo);
+                Thread.sleep(tiempo);
                 } catch (InterruptedException e) {        }                
                 i++;
                 c ++;
@@ -207,9 +207,9 @@ public class bus2 extends Thread {
 
              if (i == 19) {
                 interfaz.dos.setIcon(new ImageIcon(interfaz.bus2));
-                interfaz.dos.setLocation(450,200 );
+                interfaz.dos.setLocation(300, 620);
                 try {
-                sleep(tiempo);
+                Thread.sleep(tiempo);
                 } catch (InterruptedException e) {        }                
                 i=2;
                 c ++;
@@ -224,7 +224,7 @@ public class bus2 extends Thread {
              
              
             try {
-                sleep(tiempo);
+                Thread.sleep(tiempo);
             } catch (InterruptedException e) {
             }
     }

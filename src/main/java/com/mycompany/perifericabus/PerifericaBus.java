@@ -11,10 +11,10 @@ public class PerifericaBus {
         
         
         interfaz ventana = new interfaz();
-        ventana.setSize(  700, 800);
-        //ventana.setResizable(false);
+        ventana.setSize(1570, 950);
+        ventana.setResizable(false);
         ventana.setLocationRelativeTo(null);
-        ventana.setTitle("Pista Carros");
+        ventana.setTitle("Perifercia Bus");
         ventana.setVisible(true);
         
 
