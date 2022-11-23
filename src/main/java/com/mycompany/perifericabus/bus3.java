@@ -17,9 +17,6 @@ public class bus3 extends Thread {
 
 @Override
     public void run() {
-        
-        
-        
         i=1;
         while (activo == true) {
            // i = img.nextInt(6);
@@ -28,7 +25,7 @@ public class bus3 extends Thread {
             if (i == 1) {
                 interfaz.tres.setIcon(new ImageIcon(interfaz.bus3));
                 
-                interfaz.uno.setLocation(550, 100);
+                interfaz.uno.setLocation(300, 620);
                 i++;
                 try {
                 sleep(tiempo);
@@ -37,7 +34,7 @@ public class bus3 extends Thread {
             }
             if (i == 2) {
                 interfaz.tres.setIcon(new ImageIcon(interfaz.bus3));
-                interfaz.tres.setLocation(550, 200);
+                interfaz.tres.setLocation(320, 583);
                 try {
                 sleep(tiempo);
                 } catch (InterruptedException e) {            }
@@ -46,7 +43,7 @@ public class bus3 extends Thread {
             }
             if (i == 3) {
                 interfaz.tres.setIcon(new ImageIcon(interfaz.bus3));
-                interfaz.tres.setLocation(550,300 );
+                interfaz.tres.setLocation(370, 600);
                 try {
                 sleep(tiempo);
                 } catch (InterruptedException e) { }
@@ -56,7 +53,7 @@ public class bus3 extends Thread {
             
             if (i == 4) {
                 interfaz.tres.setIcon(new ImageIcon(interfaz.bus3));
-                interfaz.tres.setLocation(550,400 );
+                interfaz.tres.setLocation(404, 600);
                 try {
                 sleep(tiempo);
                 } catch (InterruptedException e) {             }
@@ -66,7 +63,7 @@ public class bus3 extends Thread {
             
             if (i == 5) {
                 interfaz.tres.setIcon(new ImageIcon(interfaz.bus3));
-                interfaz.tres.setLocation(550,500 );
+                interfaz.tres.setLocation(400, 628);
                 try {
                 sleep(tiempo);
                 } catch (InterruptedException e) {        }                
@@ -76,7 +73,7 @@ public class bus3 extends Thread {
             
             if (i == 6) {
                 interfaz.tres.setIcon(new ImageIcon(interfaz.bus3));
-                interfaz.tres.setLocation(550,575 );
+                interfaz.tres.setLocation(436, 645);
                 try {
                 sleep(tiempo);
                 } catch (InterruptedException e) {        }                
@@ -86,7 +83,7 @@ public class bus3 extends Thread {
 
             if (i == 7) {
                 interfaz.tres.setIcon(new ImageIcon(interfaz.bus3));
-                interfaz.tres.setLocation(450,575 );
+                interfaz.tres.setLocation(470, 621);
                 try {
                 sleep(tiempo);
                 } catch (InterruptedException e) {        }                
@@ -96,7 +93,7 @@ public class bus3 extends Thread {
 
             if (i == 8) {
                 interfaz.tres.setIcon(new ImageIcon(interfaz.bus3));
-                interfaz.tres.setLocation(350,575 );
+                interfaz.tres.setLocation(512, 586);
                 try {
                 sleep(tiempo);
                 } catch (InterruptedException e) {        }                
@@ -106,7 +103,7 @@ public class bus3 extends Thread {
 
             if (i == 9) {
                 interfaz.tres.setIcon(new ImageIcon(interfaz.bus3));
-                interfaz.tres.setLocation(250,575 );
+                interfaz.tres.setLocation(484, 464);
                 try {
                 sleep(tiempo);
                 } catch (InterruptedException e) {        }                
@@ -116,7 +113,7 @@ public class bus3 extends Thread {
 
             if (i == 10) {
                 interfaz.tres.setIcon(new ImageIcon(interfaz.bus3));
-                interfaz.tres.setLocation(150,575 );
+                interfaz.tres.setLocation(428, 450);
                 try {
                 sleep(tiempo);
                 } catch (InterruptedException e) {        }                
@@ -127,7 +124,7 @@ public class bus3 extends Thread {
 
             if (i == 11) {
                 interfaz.tres.setIcon(new ImageIcon(interfaz.bus3));
-                interfaz.tres.setLocation(15,575 );
+                interfaz.tres.setLocation(396, 428);
                 try {
                 sleep(tiempo);
                 } catch (InterruptedException e) {        }                
@@ -137,7 +134,7 @@ public class bus3 extends Thread {
 
             if (i == 12) {
                 interfaz.tres.setIcon(new ImageIcon(interfaz.bus3));
-                interfaz.tres.setLocation(15,500 );
+                interfaz.tres.setLocation(397, 408);
                 try {
                 sleep(tiempo);
                 } catch (InterruptedException e) {        }                
@@ -147,7 +144,7 @@ public class bus3 extends Thread {
 
              if (i == 13) {
                 interfaz.tres.setIcon(new ImageIcon(interfaz.bus3));
-                interfaz.tres.setLocation(15,400 );
+                interfaz.tres.setLocation(421, 416);
                 try {
                 sleep(tiempo);
                 } catch (InterruptedException e) {        }                
@@ -157,7 +154,7 @@ public class bus3 extends Thread {
             
              if (i == 14) {
                 interfaz.tres.setIcon(new ImageIcon(interfaz.bus3));
-                interfaz.tres.setLocation(15,300 );
+                interfaz.tres.setLocation(445, 430);
                 try {
                 sleep(tiempo);
                 } catch (InterruptedException e) {        }                
@@ -167,7 +164,7 @@ public class bus3 extends Thread {
              
              if (i == 15) {
                 interfaz.tres.setIcon(new ImageIcon(interfaz.bus3));
-                interfaz.tres.setLocation(15,200 );
+                interfaz.tres.setLocation(300, 620);
                 try {
                 sleep(tiempo);
                 } catch (InterruptedException e) {        }                
@@ -177,7 +174,7 @@ public class bus3 extends Thread {
              
              if (i == 16) {
                 interfaz.tres.setIcon(new ImageIcon(interfaz.bus3));
-                interfaz.tres.setLocation(115,200 );
+                interfaz.tres.setLocation(300, 620);
                 try {
                 sleep(tiempo);
                 } catch (InterruptedException e) {        }                
@@ -188,7 +185,7 @@ public class bus3 extends Thread {
              
              if (i == 17) {
                 interfaz.tres.setIcon(new ImageIcon(interfaz.bus3));
-                interfaz.tres.setLocation(215,200 );
+                interfaz.tres.setLocation(300, 620);
                 try {
                 sleep(tiempo);
                 } catch (InterruptedException e) {        }                
@@ -198,7 +195,7 @@ public class bus3 extends Thread {
              
              if (i == 18) {
                 interfaz.tres.setIcon(new ImageIcon(interfaz.bus3));
-                interfaz.tres.setLocation(315,200 );
+                interfaz.tres.setLocation(300, 620 );
                 try {
                 sleep(tiempo);
                 } catch (InterruptedException e) {        }                
@@ -208,7 +205,7 @@ public class bus3 extends Thread {
 
              if (i == 19) {
                 interfaz.tres.setIcon(new ImageIcon(interfaz.bus3));
-                interfaz.tres.setLocation(450,200 );
+                interfaz.tres.setLocation(300, 620 );
                 try {
                 sleep(tiempo);
                 } catch (InterruptedException e) {        }                

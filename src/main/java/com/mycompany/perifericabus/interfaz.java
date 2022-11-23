@@ -64,7 +64,7 @@ public interfaz(){
     imagenes.add(dos);
     imagenes.add(tres);
         
-    controles.setLayout(new GridLayout(2, 3));
+    controles.setLayout(new GridLayout(1, 1));
     //controles.add(detener1);
     //controles.add(detener2);
     //controles.add(detener3);
