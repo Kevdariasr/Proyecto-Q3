@@ -15,17 +15,10 @@ import java.awt.Graphics;
 import java.awt.Image;
 
 
-//import javax.swing.JButton;
-//import javax.swing.JLabel; 
-//import javax.swing.JOptionPane;
-//import javax.swing.JPanel;
-
-
 public class interfaz extends JFrame {
     
-    //JButton detener1 = new JButton("Detener");
-    //JButton detener2 = new JButton("Detener");
-    //JButton detener3 = new JButton("Detener");
+    // Se determinan los botones a utilizar y los string para las iamgenes 
+    
     JButton iniciar = new JButton("Iniciar");
     JButton detenerTodo = new JButton("Detener Todo");
     public static String Mapa= "Mapa.jpg",bus1 = "bus1.jpg", bus2 = "bus2.jpg", bus3 = "bus3.jpg";
@@ -38,7 +31,7 @@ public class interfaz extends JFrame {
     JPanel imagenes = new JPanel();
     //panelImage imagenes = new panelImage();
     
-    
+    // Se crean los Hilos
     bus1 hilo1 = new bus1();
     bus2 hilo2 = new bus2();
     bus3 hilo3 = new bus3();
@@ -52,7 +45,7 @@ public interfaz(){
 
     setDefaultCloseOperation(EXIT_ON_CLOSE);
     setLayout(new BorderLayout());
-   
+   // se agregan el mapa y los buses
     cero.setIcon(new ImageIcon(Mapa));
     uno.setIcon(new ImageIcon(bus1));
     dos.setIcon(new ImageIcon(bus2));
@@ -63,11 +56,9 @@ public interfaz(){
     imagenes.add(uno);
     imagenes.add(dos);
     imagenes.add(tres);
-        
+    
+    // Se agregan los controles
     controles.setLayout(new GridLayout(1, 1));
-    //controles.add(detener1);
-    //controles.add(detener2);
-    //controles.add(detener3);
     controles.add(iniciar);
     controles.add(detenerTodo);
     imagenes.add(cero);
@@ -93,7 +84,7 @@ if(hilo1.isAlive() == false) {
                     hilo1.start();
                     hilo2.start();
                     hilo3.start();
-                    z = 1;
+                    
                 }
             }
         }
@@ -102,44 +93,13 @@ if(hilo1.isAlive() == false) {
 
 detenerTodo.addActionListener(new ActionListener(){
 public void actionPerformed(ActionEvent evt){
-if(z== 1) {
-            hilo1.activo = false;
-            hilo2.activo = false;
-            hilo3.activo = false;
-            if (hilo1.c == hilo2.c) {
-                if (hilo2.c == hilo3.c) {
-                    //JOptionPane.showMessageDialog(Interfaz.this, " Ganador ! ! ! ");
-                }
-            }
-        }
+    hilo1.activo = false;
+    hilo2.activo = false;
+    hilo3.activo = false;
+
     }
 });
     
-
-/*
-detener1.addActionListener(new ActionListener(){
-public void actionPerformed(ActionEvent evt){
-        hilo1.activo = false;
-    }
-});
-
-detener2.addActionListener(new ActionListener(){
-public void actionPerformed(ActionEvent evt){
-        hilo2.activo = false;
-    }
-});
-
-detener3.addActionListener(new ActionListener(){
-public void actionPerformed(ActionEvent evt){
-hilo3.activo=false;
-}
-});
-*/
-
-
-
-
-
 
 }
 

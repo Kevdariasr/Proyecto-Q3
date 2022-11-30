@@ -217,10 +217,6 @@ public class bus3 extends Thread {
                 }
                 
             }
-             
-             
-             
-             
             try {
                 sleep(tiempo);
             } catch (InterruptedException e) {
