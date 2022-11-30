@@ -15,7 +15,7 @@ public class bus1 extends Thread{
     Random bus = new Random();
     Random tiem = new Random();
     int i = 0;
-    int tiempo = 0;
+    int tiempo = 1000;
     int c = 0;
     
 
