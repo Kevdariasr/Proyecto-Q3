@@ -1,9 +1,9 @@
 package com.mycompany.perifericabus;
-
 /**
  *
  * @author kevda
  */
+
 public class PerifericaBus {
 
     
@@ -21,8 +21,9 @@ public class PerifericaBus {
         
         
     }
-
-    static class coordenadas {
+    
+    // Etan son las coordenadas que utilizan los buses
+    public static class coordenadas {
         private boolean disponible = true;
         private int [][] coor = new int [31][2];
         public coordenadas (){
